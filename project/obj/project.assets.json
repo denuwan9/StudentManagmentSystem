@@ -577,11 +577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Denuwan\\Desktop\\Denuwan\\kj ge wadak\\project\\StudentManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Denuwan\\Documents\\GitHub\\StudentManagmentSystem\\project\\StudentManagementSystem.csproj",
       "projectName": "StudentManagementSystem",
-      "projectPath": "C:\\Users\\Denuwan\\Desktop\\Denuwan\\kj ge wadak\\project\\StudentManagementSystem.csproj",
+      "projectPath": "C:\\Users\\Denuwan\\Documents\\GitHub\\StudentManagmentSystem\\project\\StudentManagementSystem.csproj",
       "packagesPath": "C:\\Users\\Denuwan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Denuwan\\Desktop\\Denuwan\\kj ge wadak\\project\\obj\\",
+      "outputPath": "C:\\Users\\Denuwan\\Documents\\GitHub\\StudentManagmentSystem\\project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Denuwan\\AppData\\Roaming\\NuGet\\NuGet.Config"
