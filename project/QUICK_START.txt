@@ -1,0 +1,53 @@
+═══════════════════════════════════════════════════════════════
+  STUDENT MANAGEMENT SYSTEM - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+STEP 1: SETUP DATABASE
+───────────────────────
+1. Open SQL Server Management Studio (SSMS)
+2. Connect to your server (usually "localhost" or "localhost\SQLEXPRESS")
+3. Open file: Database\Script.sql
+4. Click Execute (F5)
+5. Verify "Student" database was created
+
+STEP 2: CHECK CONNECTION STRING
+────────────────────────────────
+1. Open App.config
+2. If your SQL Server is NOT "localhost", update the connection string:
+   - Change: Data Source=localhost
+   - To: Data Source=YOUR_SERVER_NAME
+   - Examples: localhost\SQLEXPRESS, .\SQLEXPRESS
+
+STEP 3: OPEN IN VISUAL STUDIO
+──────────────────────────────
+1. Open Visual Studio 2022
+2. File → Open → Project/Solution
+3. Select: StudentManagementSystem.sln
+4. Wait for packages to restore
+
+STEP 4: BUILD & RUN
+───────────────────
+1. Press Ctrl+Shift+B to build
+2. Press F5 to run
+3. Login with:
+   Username: Admin
+   Password: Skills@123
+
+═══════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+❌ "Cannot connect to database"
+   → Check SQL Server is running (Services → SQL Server)
+   → Verify connection string in App.config
+
+❌ "Database 'Student' does not exist"
+   → Run Database\Script.sql again
+
+❌ Build errors
+   → Right-click solution → Restore NuGet Packages
+   → Tools → NuGet Package Manager → Restore
+
+═══════════════════════════════════════════════════════════════
+
+
